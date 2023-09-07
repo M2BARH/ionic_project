@@ -1,0 +1,16 @@
+ion-card {
+    border-radius: 12px;
+    padding: 16px 8px;
+}
+ion-card-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+ion-button[fill="clear"] {
+    text-transform: capitalize;
+    font-size: small;
+}
+ion-button[color="success"] {
+    margin-bottom: 12px;
+}

@@ -1,13 +1,24 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>signup</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">signup</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="container">
+    <div class="form">
+      <ion-card>
+        <ion-card-content>
+          <ion-card-header>
+            <ion-card-title>Sign Up</ion-card-title>
+          </ion-card-header>
+          <ion-item>
+            <ion-input label="Email" type="Email" labelPlacement="floating" placeholder="Enter Email Address"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Password" type="Password" labelPlacement="floating" placeholder="Enter Password"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Password" type="Password" labelPlacement="floating" placeholder="Confirm Password"></ion-input>
+          </ion-item>
+          <ion-button color="success" size="full">sign up</ion-button>
+          <ion-button size="full">login</ion-button>
+        </ion-card-content>
+      </ion-card></div>
+  </div>
 </ion-content>
